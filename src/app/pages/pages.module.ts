@@ -10,13 +10,6 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { GraficalComponent } from './grafical/grafical.component';
 import { PagesComponent } from './pages.component';
-import { NgChartsModule } from 'ng2-charts';
-//import { ChartsModule } from '@rinminase/ng-charts';
-
-
-
-
-
 
 
 @NgModule({
@@ -28,8 +21,7 @@ import { NgChartsModule } from 'ng2-charts';
   ],
   imports: [
     CommonModule,
-    FormsModule,
-    NgChartsModule,
+    FormsModule,    
     ComponentsModule,
     RouterModule,
     SharedModule,    

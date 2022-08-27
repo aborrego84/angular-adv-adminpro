@@ -3,20 +3,25 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { IncrementatorComponent } from './incrementator/incrementator.component';
+import { ChartsComponent } from './charts/charts.component';
+import { NgChartsModule } from 'ng2-charts';
 
 
 
 
 @NgModule({
   declarations: [
-    IncrementatorComponent
+    IncrementatorComponent,
+    ChartsComponent
   ],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    NgChartsModule
   ],
   exports: [
-    IncrementatorComponent
+    IncrementatorComponent,
+    ChartsComponent
   ]
 })
 export class ComponentsModule { }
