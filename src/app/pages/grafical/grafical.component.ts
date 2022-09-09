@@ -14,9 +14,9 @@ export class GraficalComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  title1 : string='Sales'; 
-  labels2 = ['crazy','crazy1','crazy2'];
-  labels3 = ['happy','happy1','happy2'];
+  title1 : string = 'Sales'; 
+  labels2 : string[] = ['crazy','crazy1','crazy2'];
+  labels3 : string[] = ['happy','happy1','happy2'];
   dataValue2 = [{data:[20, 10, 80 ],backgroundColor:[ 'red', 'blue', 'green' ]}];
   dataValue3 = [{data:[500, 200, 200],backgroundColor:[ 'blue', 'black', 'yellow' ]}];
   chartData2: ChartData<'doughnut'> = {
